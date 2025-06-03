@@ -36,6 +36,8 @@ Duty cycle is calculated as:
 
 In the current Implementation, we have a resolution of 10 bit, which amounts to 0.098% accuracy in duty cycle.
 
+`Accuracy = 1 / (TOP + 1) `
+
 ---
 
 ## Left-Aligned PWM
