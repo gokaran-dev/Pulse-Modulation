@@ -1,7 +1,5 @@
 # PWM and PSM Implementations in Verilog
 
----
-
 ## Table of Contents
 
 - [PWM Overview, Parameterization & Duty Cycle](#pwm-overview-parameterization--duty-cycle)  
