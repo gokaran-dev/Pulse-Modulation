@@ -8,11 +8,11 @@
 - [Left-Aligned PWM](#left-aligned-pwm)  
   - [Advantages](#advantages)  
   - [Disadvantages](#disadvantages)  
-  - [Example Outputs](#example-outputs)  
+  - [Output Waveforms](#example-outputs)  
 - [Center-Aligned PWM](#center-aligned-pwm)  
   - [Advantages](#advantages-1)  
   - [Disadvantages](#disadvantages-1)  
-  - [Example Outputs](#example-outputs-1)  
+  - [Output Waveforms](#example-outputs-1)  
 - [Pulse Skipping Modulation (PSM)](#pulse-skipping-modulation-psm)  
 
 ---
@@ -52,7 +52,7 @@ In Left-Aligned PWM, the output goes high at the start of the counting cycle and
 - Produces more harmonic distortion  
 - Not ideal for sensitive analog or motor control applications
 
-### Output Waveforms
+### Output Waveforms  <a name="example-outputs"></a>
 
 **12% Duty Cycle**
 
@@ -78,7 +78,7 @@ In Center-Aligned PWM, the counter counts up to `TOP` and then back down to `0`,
 - Requires additional logic (up-down counting)  
 - Reduced switching frequency for same resolution
 
-### Example Outputs
+### Output Waveforms  <a name="example-outputs-1"></a>
 
 **12% Duty Cycle**
 
