@@ -34,7 +34,7 @@ Duty cycle is calculated as:
 
 > **Note:** Increasing `RESOLUTION` gives finer control over the PWM waveform but **reduces the switching speed**, since a larger counter takes longer to complete a cycle. 
 
-> In the current Implementation, we have a resolution of 10 bit, which amounts to 0.098% accuracy in duty cycle.
+In the current Implementation, we have a resolution of 10 bit, which amounts to 0.098% accuracy in duty cycle.
 
 ---
 
