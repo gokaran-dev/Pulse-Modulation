@@ -3,14 +3,17 @@
         TOP=2^resolution-1
         after duty is calculated, applying ceiling function. 
         DUTY=512 for 50 percent
-        DUTY=123 for 12 percent*/
+        DUTY=123 for 12 percent
+        DUTY=327 for 32 percent<-----these numbers are for a 10 bit system
+        
+        worked according to my needs for 8 bit resolution*/
 
 
 `timescale 1ns / 1ps
 
 module PWM #(
-      parameter RESOLUTION=10,
-      parameter DUTY=512
+      parameter RESOLUTION=8,
+      parameter DUTY=128
     )(
     input clk,rst,
     //output reg [RESOLUTION-1:0] counter,  //only used for debugging
