@@ -5,7 +5,7 @@ module PSM_5V #(
     parameter DUTY = 225,
     parameter V_REF = 12'd3150,
     parameter BASE_LOW = 12'd3100,
-    parameter BASE_HIGH = 12'd3250,
+    parameter BASE_HIGH = 12'd3200,
     parameter LOAD_FACTOR = 12'd60,
     parameter EMERGENCY = 13'd400
 )(
